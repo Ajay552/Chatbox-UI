@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 1.5rem 2rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+}
