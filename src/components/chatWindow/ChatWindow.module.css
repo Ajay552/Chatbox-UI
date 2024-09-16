@@ -1,0 +1,58 @@
+.chatWindow {
+    flex-grow: 1;
+    background: #F5F5F5;
+    padding: 1.5rem;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    height: 95%;
+}
+
+.chatWindow .messageText {
+    background: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    width: max-content;
+    color: var(--text-color);
+    text-align: center;
+    align-self: flex-end;
+    font-size: 1.6rem;
+}
+
+.chatWindow .messageText.isSender {
+    align-self: flex-start;
+    background: var(--secondary-color);
+    color: var(--text-color-secondary);
+}
+
+.chatInputBox {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.chatInputBox input {
+    width: 100%;
+    font-size: 1.6rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    padding: 1.5rem;
+    /* border: 0.1rem solid #EEEDEB; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    color: var(--text-color-secondary);
+}
+
+.chatInputBox .sendIcon {
+    background: var(--primary-color);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}

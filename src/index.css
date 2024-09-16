@@ -3,9 +3,10 @@
 
 :root {
   --text-color: #ffffff;
-  --primary-color: #4B70F5;
-  /* --secondary-color: #6c757d; */
-  /* --button-background: #007bff; */
+  --text-color-secondary: #45474B;
+  --primary-color: #FF6600;
+  --secondary-color: #ffffff;
+  --background: #ffffff;
 }
 
 /* [data-theme="dark"] {
@@ -31,6 +32,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   padding: 1rem;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
